@@ -1,0 +1,49 @@
+body {
+    
+    background-color:black
+    
+}
+
+.post{
+    
+    display:flex;
+    background-color: white;
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid red;
+    margin: auto;
+    
+  
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.post-header-left{
+    display: flex;
+    align-items: center;
+}
+
+.post-header-author{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.post-body{
+    margin: 10px;
+}
+
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    font-size: 40px;
+}
